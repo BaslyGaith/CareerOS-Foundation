@@ -1,4 +1,4 @@
-import { CheckCircle, ShieldCheck } from 'lucide-react';
+import { ShieldCheck } from 'lucide-react';
 
 const CareerProfilePage = () => {
   return (

@@ -21,6 +21,14 @@ spring:
   flyway:
     enabled: true
     locations: classpath:db/migration
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+careeros:
+  upload-dir: ${user.home}/careeros-uploads
 
 server:
   port: 8080
